@@ -2,7 +2,7 @@
 @Library('jenkins-sharelib-tools') _     
 def tools = new org.devops.tools()
 pipeline {
-    agent { node {  label "master" }}
+//    agent { node {  label "master" }}
 stages {
         //ÏÂÔØ´úÂë
         stage("GetCode"){ 
